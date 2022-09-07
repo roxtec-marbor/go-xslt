@@ -18,7 +18,7 @@ import (
 // Transformation errors
 var (
 	ErrXSLTFailure     = errors.New("XSL transformation failed")
-	ErrXSLParseFailure = errors.New("Failed to parse XSL")
+	ErrXSLParseFailure = errors.New("Unable to parse XSL, '{FILENAME}.xml'")
 )
 
 // Stylesheet represents an XSL
